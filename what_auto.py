@@ -8,12 +8,12 @@ import time
 
 
 options=webdriver.ChromeOptions()
-options.add_argument("user-data-dir=C:/Users/Aman/AppData/Local/Google/Chrome/User Data")
+options.add_argument("user-data-dir=C:/Users/sarit/AppData/Local/Google/Chrome/User Data")
 driver=webdriver.Chrome('chromedriver.exe',chrome_options=options)
 driver.get("https://web.whatsapp.com/")
 wait=WebDriverWait(driver,100)
 
-target='"Your Target"'
+target='"+919471467255"'
 message="Your Message"
 number_of_times=10 #No. of times to send a message
 
