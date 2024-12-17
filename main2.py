@@ -2,7 +2,7 @@ import pywhatkit as kit
 import time
 
 # Define the phone number and messages
-phone_number = "+919471467255"  # Replace with the recipient's phone number
+phone_number = "+123456789"  # Replace with the recipient's phone number
 messages = ["Hii", "How are you?", "This is a test message.", "Goodbye!"]  # List of messages to send
 hour = 23  # The hour you want to start sending messages (24-hour format)
 minute = 35  # The minute you want to start sending messages

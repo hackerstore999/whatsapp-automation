@@ -13,7 +13,7 @@ driver=webdriver.Chrome('chromedriver.exe',chrome_options=options)
 driver.get("https://web.whatsapp.com/")
 wait=WebDriverWait(driver,100)
 
-target='"+919471467255"'
+target='"+123456789"'
 message="Your Message"
 number_of_times=10 #No. of times to send a message
 
